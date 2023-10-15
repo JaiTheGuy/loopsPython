@@ -30,7 +30,7 @@ Recommended for high schoolers (9th-12th) with some basic knowledge on Python.
 > You will see an (important sign) next to these pieces to encourage student particaption during lecture for questions, peer coding and/or independent work
 
 
-# Introduction To Loops:
+# Introduction To The Concept of Loops:
 - We'll start with some real life applications of loops to get the students comfortable with the idea behind them.
 - Emphasize that a **loop** is an action that occurs over and over and over again.
 > [!IMPORTANT]
@@ -51,6 +51,8 @@ Recommended for high schoolers (9th-12th) with some basic knowledge on Python.
 - Explain the two pictures and the psuedo code that accompany with each one and how loops are tpyically integrated in coding applcations such as shopping websites, phone applications and video games:
   
 [IKEA Website Example](https://github.com/JaiTheGuy/loopsPython/blob/main/loopsPythonVisuals/ikea.png)
+- For the following IKEA example, we see that there are 3 chairs being displayed.
+- With the help of loops, they can iterate through any type of search result and display the following format.
 ```
 # pseudocode for IKEA chair picture
 
@@ -61,19 +63,65 @@ for every chair in IKEA website:
 	display price or price on sale
 	stars out of 5/# of ratings
 ```
- 
 
-# Lesson Outline:
-- Start to explain that there are 2 ways of looping in Python
-- Quick gif of Bart Simpson writing on the board over and over again
-- Explain how long it would take to write a sepcific statement 1000 times, would be very diffifcult to do manually
-- The solution to that is to write out for loop
-- Figure of code of print("hello world") vs a loop which takes less time and is more efficient
-- Explain to the class which solution looks easier to write out in terms of how concise and minimal it is, and can save a lot of time for coders
+[Flappy Bird Example:](https://github.com/JaiTheGuy/loopsPython/blob/main/loopsPythonVisuals/aim_bird.gif)
 
-## For Loops
-- First type of loop to explain are for loops
-- we will know in advance how many times the loop will need to iterate because we will be working on a collection
+> [!IMPORTANT]
+> Before you show off the pseudocode of the Flappy Bird GIF, ask the class what specific actions are being looped throughout the game
+> If it helps, give them this example ansd ask them to fill in the blanks
+
+```
+while playing flappy bird:
+	__________________
+	__________________
+	if the bird goes through a pipe:
+		_________________
+	else:
+		_________________
+```
+### Solution:
+```
+while playing flappy bird:
+	move background of trees/skyline
+	show off a new pipe
+	if the bird goes through a pipe:
+		update the score to 1+
+	else:
+		lose the game and start over
+```
+
+
+# For Loops:
+- Start to explain that there are 2 ways of looping in Python, the first one we'll be learning are **for loops**.
+- [A GIF of Bart Simpson writing "HAVE A GREAT SUMMER" on the board over and over again](https://github.com/JaiTheGuy/loopsPython/blob/main/loopsPythonVisuals/giphy%20(1).gif)
+- Show off GIF and explain how long it would take to write that specific statement 10 times, 100 times or even a million times.
+- Emphasize it would be would be very diffifcult to do manually and show off this example to show off this point with the following code:
+  
+```python
+print("HAVE A GREAT SUMMER")
+print("HAVE A GREAT SUMMER")
+print("HAVE A GREAT SUMMER")
+print("HAVE A GREAT SUMMER")
+
+# ...after many more print statements..
+
+print("HAVE A GREAT SUMMER")
+```
+- The solution to that is to write out for loop knowing the amount of times we want to print this statement out
+- If we wanted to print "HAVE A GREAT SUMMER" 5 times, we'll write out the following:
+
+```python
+
+for i in range(5):
+	print("HAVE A GREAT SUMMER")
+
+```
+
+- Explain to the class which solution looks easier to write out in terms of how concise and minimal it is which can save a lot of time for coders.
+
+## Syntax & For Loop Examples:
+- we will know in advance how many times the loop will need to iterate because we will be working on a collection.
+- When we talk about collections, we are referring to .
 
 - Syntax:
 `for <temporary variable> in <collection>:
