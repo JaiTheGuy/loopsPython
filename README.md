@@ -245,8 +245,50 @@ for k in range(50, 76, 5):
 75
 ```
 > [!IMPORTANT]
-> Either use [Replit](https://replit.com/) and copy the following patterns or [Fork this file](https://replit.com/)
+> Let students either use [Replit](https://replit.com/) and copy the following patterns and Invite you to their link or [Fork this file](https://replit.com/) from the repo and create a pull request with your name and classname.
 > Let's try getting the class to print out the following numerical patterns using for loops:
+>
+> Be mindful that the patterns will displayed horizonally but the output must be printed veritcally with the commas represnted as a new line for the value.
+> The 3 ellipses are filler to save space but the values must be printed out in between as well.
 
 ```python
+# Pattern 1:
+# 21, 25, 29, ... 97
+########### CODE BELOW HERE #########
 
+
+
+
+# Pattern 2:
+# -4, -2, 0, ... 3
+########### CODE BELOW HERE #########
+
+
+
+
+
+
+# Pattern 3:
+# 3 mississippi, 2 mississippi, 1 mississippi
+########### CODE BELOW HERE #########
+
+
+
+
+
+
+
+# Pattern 4:
+# Create a list of 5 emojis of your choice and print them using a for loop
+# 😬😎😁👽🥳
+########### CODE BELOW HERE #########
+
+
+
+
+
+
+
+
+
+```
