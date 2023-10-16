@@ -252,6 +252,7 @@ for k in range(50, 76, 5):
 > The 3 ellipses are filler to save space but the values must be printed out in between as well.
 > Solutions will be in the following link
 
+### Coding Exercise #1:
 ```python
 # Pattern 1:
 # 21, 25, 29, ... 97
@@ -371,4 +372,123 @@ Even number detected!
 
 ```
 
+> [!IMPORTANT]
+> Let students either use [Replit](https://replit.com/) and copy the following patterns and Invite you to their link or [Fork this file](https://replit.com/) from the repo and create a pull request with your name and classname.
+> Follow the comments and use what you learn about while loops to produce the following results:
+>
+> Solutions will be in the following link
 
+### Coding Exercise #2:
+```python
+# First Coding Session:
+# Output the following values using a while loop: 9,8,7,6,5
+########### CODE BELOW HERE #########
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# Second Coding Session:
+# Create a list of ingredients you'd use to make a cake (minumum of 4 elements)
+# As you iterate through the list, print out "We have that ingredient!"
+# If you come across the ingredients of either flour or sugar, print out the statement "Wait, we don't have that!" and use the keyword break
+#
+# Complete this challenge with a for loop. If you have more time, try creating a while loop solution as a bonus!
+########### CODE BELOW HERE #########
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+```
+## Infinte Loop:
+- The last important concept is something you may have came across while coding
+- Let's say the condition you have written is always true; this means that your executable code is constantly running!
+
+> [!IMPORTANT]
+> Ask the class what type of expression can you insert in the blanks will create an infinite loop.
+> If they have an answer, compare and explain why it works out as an infinite loop.
+
+```python
+count = 5
+
+while count _ __:
+  print("repeat")
+
+
+
+
+# One Example of a Solution
+count = 5
+
+while count < 10:
+  print(count)
+
+```
+
+
+> [!IMPORTANT]
+> Let students either use [Replit](https://replit.com/) and copy the following patterns and Invite you to their link or [Fork this file](https://replit.com/) from the repo and create a pull request with your name and classname.
+> Explain the instructions carefully and students may work together if they'd like
+> Encourage students to look up Python documentation if needed (ex: GeeksForGeeks, StackOverflow, etc...)
+
+### Final Project: Number Guessing Game
+``` python
+# Goal: Create a game where you keep guessing a number until you get it right!
+# Step 1: Create a variable that holds onto a random number based on your preferred range (hint: you might need to import!).
+# Step 2: Make a while loop where the condition is 'True'.
+# Step 3: Have the user guess the number and each time they guess incorrectly, have a print statement that tell them to keep guessing.
+# Step 4: If they guess the number correctly, use a print statement to congradlate them and then break from the loop.
+
+# BONUS:
+#1: Tell the user if their guess is higher or lower after each turn.
+#2: Tell user how many turns it took them to get the answer right when they win.
+#3:  If someone enters something that's not a number or a number out of the range, have a condition that prints out an error message for that turn and ask them to try again.
+
+########### CODE BELOW HERE #########
+
+
+
+
+
+
+
+
+
+
+
+
+```
+## Conclusion/Review Questions:
+- At the end of this lesson, the students should be more familar with the practices of loops and should be able to implement them in their future projects when needed.
+
+> [!IMPORTANT]
+> Review Questions:
+>
+> What is the difference between a for loop and a while loop?
+>
+> What causes an infinite loop?
+>
+> When printing out a for loop in a range, what would the 3 numbers in the parenthesis represent?
