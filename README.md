@@ -30,7 +30,7 @@ Recommended for high schoolers (9th-12th) with some basic knowledge on Python.
 > You will see an (important sign) next to these pieces to encourage student participation during lecture for questions, peer coding and/or independent work
 
 
-# Introduction To The Concept of Loops:
+## Introduction To The Concept of Loops:
 - We'll start with some real life applications of loops to get the students comfortable with the idea behind them.
 - Emphasize that a **loop** is an action that occurs over and over and over again.
 > [!IMPORTANT]
@@ -85,13 +85,13 @@ while playing flappy bird:
 	move background of trees/skyline
 	show off a new pipe
 	if the bird goes through a pipe:
-        	update the score to 1+
+        	update the score to +1
 	else:
 		lose the game and start over
 ```
 
 
-# For Loops:
+## For Loops:
 - Start to explain that there are 2 ways of looping in Python, the first one we'll be learning are **for loops**.
 - [A GIF of Bart Simpson writing "HAVE A GREAT SUMMER, EVERYONE" on the board over and over again](https://github.com/JaiTheGuy/loopsPython/blob/main/loopsPythonVisuals/giphy%20(1).gif)
 - Show off a GIF and explain how long it would take to write that specific statement 10 times, 100 times or even a million times.
@@ -119,7 +119,7 @@ for i in range(5):
 
 - Explain to the class which solution looks easier to write out in terms of how concise and minimal it is which can save a lot of time for coders.
 
-## Syntax & For Loop Examples:
+## Syntax:
 - The major case when using for loops is that we will know in advance how many times the loop will need to iterate through a collection.
 - When we talk about collections, we are referring to some sort of data that we can extract from (examples include elements in lists or characters in strings).
 - Iteration is a repeated performance where it executes the same set of instructions a given number of times or until a specified result is obtained.
@@ -250,6 +250,7 @@ for k in range(50, 76, 5):
 >
 > Be mindful that the patterns will displayed horizonally but the output must be printed veritcally with the commas represnted as a new line for the value.
 > The 3 ellipses are filler to save space but the values must be printed out in between as well.
+> Solutions will be in the following link
 
 ```python
 # Pattern 1:
@@ -290,5 +291,84 @@ for k in range(50, 76, 5):
 
 
 
+```
+## While Loops
+- Compared to for loops, while loops serve a simular purpose of repeating an action.
+- The difference is that it will continue as the given condition is true.
+- The following is the syntax of a while loop written in Python:
 
 ```
+while <condition>:
+  <executable code>
+```
+- The condition is typically a boolean expression that expresses if it is either true or false.
+- If the condition isn't true during the while loop, the code is finally finished.
+- NOTE: Anything you can print out with a for loop, you can use a while loop for the solution as well. Something to keep in mind is that you have to choose which loop fits better in what specific scenario.
+
+While Loop Example:
+- Let's say we want to print out the number 1 through 5 using a while loop.
+- What we have to do first is we should create a variable called 'count' and assign it to 1. This will help have something to compare to in the condition.
+- As long as the count variable is less than or equal to 5, we will add 1 to the count and continue to print the number until we reach 5.
+
+```python
+count = 1
+
+while count <= 5:
+  print(count)
+  count = count + 1
+
+# Output:
+1
+2
+3
+4
+5
+
+```
+
+## Breaks In Loops:
+- This keyword helps terminate the current loop and continues the execution to the next statement.
+- The word 'break' can help us with stopping a loop when we finally found an element or satisfies a condition that doesn't require the rest of the loop to be finished.
+
+Example:
+- Let's say we're given a list of numbers
+- Out goal is to iterate the lsit of numbers but break the loop when we encounter an even number.
+
+> [!IMPORTANT]
+> Ask the class the fill in the blank on how we can detect an even number in Python
+> If the class isn't sure, provide a hint of using the modulo opereration
+
+```python
+
+numbers = [3, 55, 9, -21, 50, 6]
+
+for num in numbers:
+  if (____________):
+    print("Even number detected!")
+    break
+  print("Odd number passed", num)
+
+```
+
+Solution
+```python
+numbers = [3, 55, 9, -21, 50, 6]
+
+for num in numbers:
+  if (num % 2 == 0):
+    print("Even number detected!")
+    break
+  print("Odd number passed", num)
+
+
+
+# Output:
+Odd number passed 3
+Odd number passed 55
+Odd number passed 9
+Odd number passed -21
+Even number detected!
+
+```
+
+
