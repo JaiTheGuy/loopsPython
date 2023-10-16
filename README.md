@@ -108,7 +108,7 @@ print("HAVE A GREAT SUMMER")
 print("HAVE A GREAT SUMMER")
 ```
 - The solution to that is to write out for loop knowing the amount of times we want to print this statement out
-- If we wanted to print "HAVE A GREAT SUMMER" 5 times, we'll write out the following:
+- If we wanted to print "HAVE A GREAT SUMMER" 5 times using a loop, we'll write out the following:
 
 ```python
 
@@ -120,36 +120,82 @@ for i in range(5):
 - Explain to the class which solution looks easier to write out in terms of how concise and minimal it is which can save a lot of time for coders.
 
 ## Syntax & For Loop Examples:
-- we will know in advance how many times the loop will need to iterate because we will be working on a collection.
-- When we talk about collections, we are referring to .
+- The major case when using for loops is that we will know in advance how many times the loop will need to iterate though a collection.
+- When we talk about collections, we are referring to some sort of data that we can extract from (examples includes elements in lists or characters in strings).
+- Interation is a repeated performance where it executes the same set of instructions a given number of times or until a specified result is obtained.
 
-- Syntax:
-`for <temporary variable> in <collection>:
-  <action>`
-
-Let’s break down each of these components:
-
-A for keyword indicates the start of a for loop.
-A <temporary variable> that is used to represent the value of the element in the collection the loop is currently on.
-An in keyword separates the temporary variable from the collection used for iteration.
-A <collection> to loop over. In our examples, we will be using a list.
-An <action> to do anything on each iteration of the loop.
-
-Example: explain the comparisons between this example and this one
+Syntax:
 ```
-sport_games = ["football", "hockey", "baseball", "cricket"]
-for game1 in sport_games:
-  print(game1)
+for <temp variable> in <collection>:
+  <executable code>
 ```
 
-What will be printed out here? 
+Break down each componnent to the following use case and/or defintion:
+
+- _**for**_ keyword = indicates the start of a for loop.
+- _**temp variable**_ (temporay variable) = used to track the value of the element in the collection the loop is currently on. The temporary variable can be any name you'd like it to be but it's always encouraged to make a temp variable that relates to what you're doing.
+- _**in**_ keyword = separates the temp variable from the collection used for iteration.
+- _**collection**_ = the content that we're looping over.
+- _**executable code**_ = the action to perform on each iteration of the loop.
+
+Example:
+```python
+speech = ["Spanish", "French", "Italian", "English"]
+
+for languages in speech:
+  print(languages)
+
+# Output:
+
+Spanish
+French
+Italian
+English
 ```
-Word = “hello”
-For i in word:
+> [!IMPORTANT]
+> Ask the class the following questions: What type of collection are we using for this loop what will be printed out here? 
+
+```python
+for i in "hello":
 	print(i)
+
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+
+
+# Solution:
+
+# The collection we're using is a String that is going to print out indiviudal characters
+
+# Output from the loop:
+h
+e
+l
+l
+o
+
 ```
 
-What type of collection are we using? *String*
+## Loops in Ranges:
+- The same way we want to perform an action a certain amount of times in loops, it becomes most helpful when it comes to numbers.
+- When we're not dealing with collections, we can iterate over a range of integers that exists.
+
+Example #1: 
+- Let's say we want to print out a range of numbers from 0 through 5.
+
+``python
+
+``
 
 
 
