@@ -244,5 +244,9 @@ for k in range(50, 76, 5):
 70
 75
 ```
+> [!IMPORTANT]
+> Either use [Replit](https://replit.com/) and copy the following patterns or [Fork this file](https://replit.com/)
+> Let's try getting the class to print out the following numerical patterns using for loops:
 
+```python
 
