@@ -1,5 +1,9 @@
 # Loops in Python Workshop 
 
+### Disclaimer:
+In case the downloaded content doesn't show the proper work sample, follow this link for a better view in the README.md file: 
+- https://github.com/JaiTheGuy/loopsPython
+
 ## Duration:
 Approximately 60 minutes.
 
